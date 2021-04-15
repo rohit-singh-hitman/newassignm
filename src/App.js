@@ -1,10 +1,25 @@
 import "./styles.css";
-
+import Navbar from "./Navbar";
+import Header from "./Header";
+import Small from "./Small_div";
+import Job from "./Job";
+import Categories from "./Ctaegories";
+import Apply from "./Apply";
+import About from "./About";
+import Subscribe from "./Subscribe";
+import Footer from "./Footer";
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <>
+      <Navbar />
+      <Header />
+      <Small />
+      <Job />
+      <Categories />
+      <Apply />
+      <About />
+      <Subscribe />
+      <Footer />
+    </>
   );
 }
